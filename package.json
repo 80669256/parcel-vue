@@ -1,0 +1,24 @@
+{
+  "name": "parcel-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "rm -rf .cache & rm -rf dist & parcel index.html",
+    "build": "rm -rf .cache & rm -rf dist & parcel build index.html -d build"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.6.1",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.4.1",
+    "parcel-plugin-vue": "^1.5.0",
+    "pug": "^2.0.0-rc.4",
+    "vue": "^2.5.13",
+    "vue-template-compiler": "^2.5.13"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "parcel-plugin-pug": "^0.2.1",
+    "vue-router": "^3.0.1"
+  }
+}
